@@ -1,0 +1,14 @@
+{
+  "java": "/path/to/java-21/bin/java",
+  "exomiser_jar": "/path/to/exomiser-cli-15.1.0.jar",
+  "lirical_jar": "/path/to/lirical-cli-2.4.1.jar",
+  "exomiser_data": "/path/to/exomiser-data",
+  "remm": "/path/to/ReMM.v0.4.hg38.tsv.gz",
+  "lirical_data": "/path/to/lirical-data",
+  "vcf": "/private/path/to/input.vcf.gz",
+  "sample_id": "SYNTHETIC",
+  "hpo_ids": [
+    "HP:0001250",
+    "HP:0001263"
+  ]
+}

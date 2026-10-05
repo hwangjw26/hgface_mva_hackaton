@@ -1,0 +1,11 @@
+{
+  "numGenes": 0,
+  "outputContributingVariantsOnly": false,
+  "outputFormats": [
+    "HTML",
+    "JSON",
+    "TSV_GENE",
+    "TSV_VARIANT",
+    "VCF"
+  ]
+}

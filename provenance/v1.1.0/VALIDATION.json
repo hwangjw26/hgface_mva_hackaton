@@ -1,0 +1,29 @@
+{
+  "avi_verification": {
+    "checks": 2024,
+    "scope": "all201 responses,238 contexts,120 pairs and four recommendations",
+    "verification": "PASS"
+  },
+  "baseline_verification": {
+    "comparisons": 25881,
+    "status": "PASS"
+  },
+  "csv_identical_to_v1": true,
+  "large_native_annotation_fastq_runs_repeated": false,
+  "local_document_links": 14,
+  "network_requests": 0,
+  "public_privacy_scan": "PASS",
+  "release": "1.1.0",
+  "status": "CHECKPOINT_AND_AVI_REPLAY_VERIFIED",
+  "task26_deterministic_files": {
+    "aggregate_summary.json": true,
+    "allele_avi.tsv": true,
+    "current_four_avi.tsv": true,
+    "pair_avi.tsv": true
+  },
+  "tests": {
+    "api_annotation": 6,
+    "baseline": 18,
+    "cache_integration": 4
+  }
+}

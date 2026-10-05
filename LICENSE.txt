@@ -1,0 +1,9 @@
+New workflow scripts and documentation in this bundle are licensed under
+Creative Commons Attribution 4.0 International (CC BY 4.0).
+License: https://creativecommons.org/licenses/by/4.0/
+Attribution: Exomiser + LIRICAL variant-pair submission workflow contributors, 2026.
+
+This statement does not relicense third-party material. Exomiser presets retain
+their upstream AGPL-3.0 terms, reproduced in EXOMISER_LICENSE. See THIRD_PARTY.md.
+Challenge data and private evidence derivatives are not included and may not be
+redistributed under this license.

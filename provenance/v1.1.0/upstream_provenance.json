@@ -1,0 +1,85 @@
+{
+  "upstream/normalization/prepare_normalization_input.py": {
+    "source": "runs/Task04_VCF_QC_And_Annotation/02_Derived_Allele_Normalization_And_Source_Map/RUN_20260830_011054_task04_inc02_allele_normalization/scripts/prepare_normalization_input.py",
+    "source_sha256": "910a8168923a83bc452244ef6a8e7f88c30470ae07942434a58ce9ba04bec876",
+    "export_sha256": "cff81b3e5108065ad4de7964bd9c23cc9f1ef3173cda451ba95914524d8ba9ae",
+    "change": "TMPDIR read from environment",
+    "substitutions": 1
+  },
+  "upstream/normalization/run_bcftools_normalization.py": {
+    "source": "runs/Task04_VCF_QC_And_Annotation/02_Derived_Allele_Normalization_And_Source_Map/RUN_20260830_011054_task04_inc02_allele_normalization/scripts/run_bcftools_normalization.py",
+    "source_sha256": "d80b0555afd5aa1a4fb7503ee692b498c1386d8cd1468d230b07d56dba1b2c05",
+    "export_sha256": "0305891e038ddcf70ce1daa214eb65c9cd0f32cf2a73fd6701f3f1da667f1c23",
+    "change": "TMPDIR read from environment",
+    "substitutions": 1
+  },
+  "upstream/normalization/build_normalized_source_link.py": {
+    "source": "runs/Task04_VCF_QC_And_Annotation/02_Derived_Allele_Normalization_And_Source_Map/RUN_20260830_011054_task04_inc02_allele_normalization/scripts/build_normalized_source_link.py",
+    "source_sha256": "fa72097929e16210546ef27c868f95fd96b99975c7fdbb26a855a0512efebea6",
+    "export_sha256": "fa72097929e16210546ef27c868f95fd96b99975c7fdbb26a855a0512efebea6",
+    "change": "byte-identical",
+    "substitutions": 0
+  },
+  "upstream/annotation/run_vep_annotation.py": {
+    "source": "runs/Task04_VCF_QC_And_Annotation/03_Offline_VEP_Annotation_And_Evidence_Join/RUN_20260830_021134_task04_inc03_offline_vep_annotation/scripts/run_vep_annotation.py",
+    "source_sha256": "a1d5cc95038e55d69d9ac7cb75ce451945933bbc4a4740a455c9d4803523c1c7",
+    "export_sha256": "aeea3981a9d13694277fbe2b84532ebd94e62eea6fca16d38aceca8860d80119",
+    "change": "TMPDIR read from environment",
+    "substitutions": 1
+  },
+  "upstream/annotation/parse_vep_annotations.py": {
+    "source": "runs/Task04_VCF_QC_And_Annotation/03_Offline_VEP_Annotation_And_Evidence_Join/RUN_20260830_021134_task04_inc03_offline_vep_annotation/scripts/parse_vep_annotations.py",
+    "source_sha256": "549cb766ffdf289ae503daeadc219124be354816e00ff21a51239a3b3258e3e0",
+    "export_sha256": "549cb766ffdf289ae503daeadc219124be354816e00ff21a51239a3b3258e3e0",
+    "change": "byte-identical",
+    "substitutions": 0
+  },
+  "upstream/reads/read_evidence_core.py": {
+    "source": "runs/Task09_Exomiser_Candidate_Review/04_Read_And_Phase_Review/RUN_20260926_212847_task09_inc04_read_phase_attempt03/scripts/read_evidence_core.py",
+    "source_sha256": "a1924a5ba1c81736139cc9d211727b955cc573dd6be94767f77b456c7b05debc",
+    "export_sha256": "a1924a5ba1c81736139cc9d211727b955cc573dd6be94767f77b456c7b05debc",
+    "change": "byte-identical",
+    "substitutions": 0
+  },
+  "upstream/reads/run_targeted_fastq_validation.py": {
+    "source": "runs/Task09_Exomiser_Candidate_Review/04_Read_And_Phase_Review/RUN_20260926_212847_task09_inc04_read_phase_attempt03/scripts/run_targeted_fastq_validation.py",
+    "source_sha256": "514daae87c6611120d5d09bddf3d88758482955e94b8d3bb72c41e547424d0fa",
+    "export_sha256": "3a4e861a77fff8ddbbed3de4e83d543bb92a8f783878570dc27e0718bbab3142",
+    "change": "TMPDIR read from environment",
+    "substitutions": 3
+  },
+  "upstream/reads/run_task09_read_validation.py": {
+    "source": "runs/Task09_Exomiser_Candidate_Review/04_Read_And_Phase_Review/RUN_20260926_212847_task09_inc04_read_phase_attempt03/scripts/run_task09_read_validation.py",
+    "source_sha256": "d2ea4850d5c215dc2a6da417fcb17599a0c7b3c282c4ff91a0793b8bc613e4c6",
+    "export_sha256": "d2ea4850d5c215dc2a6da417fcb17599a0c7b3c282c4ff91a0793b8bc613e4c6",
+    "change": "byte-identical",
+    "substitutions": 0
+  },
+  "upstream/reads/lossless_seed_prefilter.c": {
+    "source": "runs/Task09_Exomiser_Candidate_Review/04_Read_And_Phase_Review/RUN_20260926_212847_task09_inc04_read_phase_attempt03/scripts/lossless_seed_prefilter.c",
+    "source_sha256": "7c3afb1353e021345eb4bd04f7235f2a378755b9ede3080e9f34bbafd027a2a1",
+    "export_sha256": "7c3afb1353e021345eb4bd04f7235f2a378755b9ede3080e9f34bbafd027a2a1",
+    "change": "byte-identical",
+    "substitutions": 0
+  },
+  "upstream/reads/reconcile_read_phase.py": {
+    "source": "runs/Task09_Exomiser_Candidate_Review/04_Read_And_Phase_Review/RUN_20260926_212847_task09_inc04_read_phase_attempt03/scripts/reconcile_read_phase.py",
+    "source_sha256": "b12773c80b2858b65ad0664fd78d42396b3dca6716ccca080e441da1476ada0c",
+    "export_sha256": "c8f4d546159b49e9f35c12ac35d5bdaa90267c03a6c42b414b226bf9c4bbe3ab",
+    "change": "Replace repository globals with explicit CLI inputs; import exact read rules locally; reject duplicate joins and existing outputs"
+  },
+  "upstream/reads/read_rules.py": {
+    "source": "runs/Task09_Exomiser_Candidate_Review/01_Review_Contract/RUN_20260926_201709_task09_inc01_review_contract/scripts/review_rules.py",
+    "source_sha256": "f2f75cb6b6a091d14e3429682615dc98ba2c083f93eb457ae59df0785df1648f",
+    "export_sha256": "9c9672d89757085187feaf342c035b1b2d9ebec99d2077f5f1c0ff6bec7503b6",
+    "symbols": [
+      "READ_SUPPORTED",
+      "allele_key",
+      "canonical_pair",
+      "contig_rank",
+      "order_tuple",
+      "pair_key",
+      "pair_read_label"
+    ]
+  }
+}

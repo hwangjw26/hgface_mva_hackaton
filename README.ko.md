@@ -1,0 +1,30 @@
+# Exomiser와 LIRICAL 및 AVI 분석 코드
+
+제출 이름은 **hideonbocchi**다. 이 저장소는 v1.1.0 코드를 실행 단계별로 정리한 **v1.1.1**이며, 후보·순위·Tier·EPCR·CSV 내용은 유지한다.
+
+- `scripts/`: 실행 스크립트. 정규화, 주석, read/phase, AVI는 하위 폴더로 구분했다.
+- `src/`: 공통 분석 로직. `canonical/`의 기존 판정 함수는 원본을 유지했다.
+- `config/`, `examples/`: 공개 설정과 입력 경로 예시.
+- `tests/`: 합성 자료와 공개 대조군을 이용한 검증.
+- `docs/`: 방법, 입력 형식, 분석 단계, 한계.
+- `provenance/`: 원본 출처, 파일 이동 기록, 검증 결과.
+
+## 재현 범위
+
+검증된 재현은 저장된 Exomiser·LIRICAL 출력과 주석·read·검토 관측에서 시작해, 120쌍의 판정과 제출 CSV를 다시 만든다. AVI는 저장 응답을 읽으므로 재조회나 API 키가 필요 없다. 원본 WGS부터 모든 대규모 분석을 다시 실행한 것은 아니다. 문헌 검토는 별도의 기록된 입력이다.
+
+## 실행
+
+Python 3.11, bcftools 1.22, 접근 권한이 있는 비공개 입력 묶음과 기준 유전체가 필요하다. 저장소 루트에서 실행하고 `/private/...`를 실제 경로로 바꾼다. 출력 폴더는 새 경로여야 한다.
+
+```bash
+export TMPDIR=/private/scratch
+python -B scripts/reproduce.py --config /private/reproduction.private.json --avi-config /private/avi.private.json --output /private/new-replay
+python -B scripts/verify_reproduction.py --result /private/new-replay --reference /private/verification_only
+```
+
+AVI를 생략하려면 `--avi-config` 옵션만 빼면 된다. 기본 검증과 AVI 검증의 PASS를 함께 확인한다. 전체 분석 단계는 [UPSTREAM](docs/UPSTREAM.md), 세부 사용법은 [영문 README](README.md)를 따른다.
+
+## 제출
+
+포털에는 비공개 CSV `hideonbocchi_exomiser_lirical_avi.csv`와 [영문 보고서](METHODS.md)를 `hideonbocchi_track1_report.md`로 저장해 사용한다. 실제 AI 요금제와 학습·보관 설정은 제출 전에 확인해 기입한다. 환자 자료, CSV, API 응답·키는 GitHub에 올리지 않는다. 이 저장소 게시와 포털 제출은 별개다.

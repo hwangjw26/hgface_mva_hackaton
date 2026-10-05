@@ -1,0 +1,44 @@
+{
+  "source_analysis": "Completed AVI annotation, 2026-10-05",
+  "source_sdk": "0.9.0",
+  "cutoff_source": "Qu and Hakonarson 2026, DOI 10.64898/2026.09.26.754650, Table 2",
+  "files": {
+    "annotate_api.py": {
+      "source_sha256": "e4b2e4fc5e66fde627ca2eb3e090a09fc74b22605d5d45b03ac643e60ecc3709",
+      "release_sha256": "e4b2e4fc5e66fde627ca2eb3e090a09fc74b22605d5d45b03ac643e60ecc3709",
+      "change": "Unmodified"
+    },
+    "annotate_avi.py": {
+      "source_sha256": "a66c4cf86ca1bbe1ea0d7de629dfcca8508c2d84d2a91991be26255ef758707a",
+      "release_sha256": "50c9b5f7e24126a56720bf65d1bf86048d8e3e6643892288fb488adb08bd70db",
+      "change": "Move pysam import inside bulk/reference main; cache helpers use stdlib"
+    },
+    "verify_api_annotation.py": {
+      "source_sha256": "5ed8186c15e06dffc45837615a65b26fc80588f17aba6a5eaf6c167c70ef6da0",
+      "release_sha256": "5ed8186c15e06dffc45837615a65b26fc80588f17aba6a5eaf6c167c70ef6da0",
+      "change": "Unmodified"
+    },
+    "test_api_annotation.py": {
+      "source_sha256": "10d015c050b170bdd5e9c158b04a8f36b631b5e98de09266d0bbc8d5122ad810",
+      "release_sha256": "7b50b87661ddd13aad956308390ff432675a09005b91756f5478dea56298eea3",
+      "change": "Relocate public-control fixture path"
+    },
+    "fetch_atlas.py": {
+      "source_sha256": "b4607ffa83fe4d3c88beca043f29af6f4afc5151b514dcf3465e66d031b9161e",
+      "release_sha256": "b4607ffa83fe4d3c88beca043f29af6f4afc5151b514dcf3465e66d031b9161e",
+      "change": "Unmodified"
+    },
+    "inspect_atlas_metadata.py": {
+      "source_sha256": "2dea596b744ae91ac7b11ecaab85003d834327da0065df971cfef80083a40b08",
+      "release_sha256": "2dea596b744ae91ac7b11ecaab85003d834327da0065df971cfef80083a40b08",
+      "change": "Unmodified"
+    }
+  },
+  "public_control_fixture": {
+    "source": "Public UCSC import control, independent of case",
+    "source_sha256": "1a502888090683a2300c49468ffb69bb4220ddb3b0a1c3ea4b3e299378c5e28d",
+    "release_sha256": "1a502888090683a2300c49468ffb69bb4220ddb3b0a1c3ea4b3e299378c5e28d"
+  },
+  "baseline_methods_preserved": true,
+  "no_new_acquisition_in_release": true
+}

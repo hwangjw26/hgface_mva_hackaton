@@ -1,0 +1,8 @@
+# Attribution and upstream material
+
+- `config/preset-exome-analysis.yml` and `config/preset-genome-analysis.yml` are unmodified analysis presets from Exomiser CLI15.1.0. Exomiser is developed by its contributors in the Monarch Initiative and collaborating institutions. Source: https://github.com/exomiser/Exomiser/tree/15.1.0. The upstream AGPL3.0 license is reproduced in `EXOMISER_LICENSE`; these files retain that upstream license.
+- `config/output-options.json` records the analysis output settings used for the current workflow.
+- Exomiser and LIRICAL executables, reference data and database contents are **not redistributed**. Obtain them from official maintainers and comply with their respective terms.
+- Official challenge schema and instructions: https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026. The organizer evaluator was checked locally but its hidden answer key was never accessed or bundled.
+- New scripts/docs in this bundle are separate workflow material offered under Creative Commons Attribution4.0; upstream licenses are preserved. No rights to redistribute challenge patient data are granted by this code license.
+- AVI workflow code calls the separately installed official Google AlphaGenome SDK 0.9.0 only for optional upstream acquisition. The SDK is not redistributed. Cached replay uses no SDK or API key. Provider responses and case queries stay in the protected bundle; this code license does not relicense provider scores or authorize public redistribution of case-derived records. The single test fixture is a documented public UCSC control, separate from case data. See [AVI.md](docs/AVI.md) for primary method sources.
