@@ -31,7 +31,7 @@ Release v1.1.1 preserves decisions. It reconstructs the baseline from native out
 
 Recorded wall times: Exomiser 5m47s/10m28s; eight LIRICAL runs 34m32s; targeted phase extension 86m38s. These exclude other work; total effort and cost were not recorded.
 
-**AI assistance:** Anthropic Claude (Team plan for scientists) supported analysis; OpenAI Codex (ChatGPT Pro 20x) assisted with code and reporting. Account training and retention settings remain unverified.
+**AI assistance:** Anthropic Claude (Team plan for scientists) supported analysis; OpenAI Codex (ChatGPT Pro 20x) assisted with code and reporting. No training on submitted data (participant-reported); retention unverified.
 
 Submission notes add reviewed rationales without altering other fields.
 

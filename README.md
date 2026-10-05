@@ -124,7 +124,7 @@ Original release records are retained in `provenance/v1.1.0/`.
 
 Use `hideonbocchi_exomiser_lirical_avi.csv` and `hideonbocchi_track1_report.md` for
 the portal. The CSV stays private; [METHODS.md](METHODS.md) is the report source.
-Anthropic Claude (Team plan for scientists) supported analysis; OpenAI Codex (ChatGPT Pro 20x) assisted with code and reporting. Account training and retention settings remain unverified.
+Anthropic Claude (Team plan for scientists) supported analysis; OpenAI Codex (ChatGPT Pro 20x) assisted with code and reporting. No training on submitted data (participant-reported); retention unverified.
 Do not commit case inputs, exact candidate tables, raw reads, outputs, API caches
 or keys. Repository publication does not submit predictions to the challenge.
 

@@ -7,7 +7,7 @@
 - 검토용 국문 보고서: [METHODS.ko.md](../METHODS.ko.md).
 - GitHub에는 이 코드 저장소의 파일만 사용한다. 환자 CSV, 입력, 후보별 결과, 로그, API 응답과 키는 포함하지 않는다.
 
-보고서의 AI 사용 내역: Anthropic Claude(Team plan for scientists)는 분석을 지원했고, OpenAI Codex(ChatGPT Pro 20x)는 코드 작성과 보고서 작성을 지원했다. 계정의 학습·보관 설정은 미확인이다. 코드 게시와 포털 제출은 별개다. 이 코드 정리는 포털 제출을 실행하지 않는다.
+보고서의 AI 사용 내역: Anthropic Claude(Team plan for scientists)는 분석을 지원했고, OpenAI Codex(ChatGPT Pro 20x)는 코드 작성과 보고서 작성을 지원했다. 제출 자료는 모델 학습에 사용하지 않았다(참가자 확인). 데이터 보관 설정은 미확인이다. 코드 게시와 포털 제출은 별개다. 이 코드 정리는 포털 제출을 실행하지 않는다.
 
 v1.1.1은 실행 경로와 문서를 정리한 버전이다. v1.1.0 비공개 입력 묶음 및 AVI 저장 응답을 그대로 사용한다. 실행은 [README](../README.md), 전체 분석 단계는 [UPSTREAM](UPSTREAM.md)을 따른다.
 

@@ -3,7 +3,7 @@
 ## 1.1.1 — 2026-10-05
 
 - Delivery update: add reviewed candidate rationale and limitations to the private submission CSV notes only. Frozen replay output and its original byte-comparison validation remain unchanged.
-- Record participant-reported Anthropic Claude (Team plan for scientists) and OpenAI Codex (ChatGPT Pro 20x) use; training and retention settings remain unverified.
+- Record participant-reported Anthropic Claude (Team plan for scientists) and OpenAI Codex (ChatGPT Pro 20x) use; no training on submitted data (participant-reported); retention remains unverified.
 
 - Organize command-line entry points in `scripts/`, shared code in `src/`, tests in `tests/`, and supporting documents in `docs/`.
 - Resolve config, Java adapter and AVI script paths relative to the repository, independent of the caller's working directory.
