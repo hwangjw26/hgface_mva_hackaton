@@ -16,7 +16,7 @@ The official methods spreadsheet contains voluntary questions; the separate Trac
 | Incidental findings | None submitted; all rows are primary alternatives |
 | Runtime and cost | METHODS: recorded stage wall times; total effort and monetary cost not recorded |
 | Abstract, maximum 500 words | English METHODS is checked to be at most 500 whitespace-delimited words, including title and references |
-| AI disclosure (additional submission-page instruction) | OpenAI Codex; user-reported plan label and unverified data-handling settings explicitly stated |
+| AI disclosure (additional submission-page instruction) | Participant-reported Claude for Scientist use for analysis; OpenAI Codex for repository organization and report editing; training and retention settings remain unverified |
 | Added AVI method | METHODS and AVI.md describe scope, SDK, date, quantile cutoff, incomplete indels, fixed-cache replay and evidence dependence |
 
 Source: the official Track 1 methods spreadsheet, frozen locally 28 August 2026, and the submission instructions checked 4 October 2026. This table is a coverage aid, not organizer approval.

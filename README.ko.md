@@ -27,4 +27,4 @@ AVI를 생략하려면 `--avi-config` 옵션만 빼면 된다. 기본 검증과 
 
 ## 제출
 
-포털에는 비공개 CSV `hideonbocchi_exomiser_lirical_avi.csv`와 [영문 보고서](METHODS.md)를 `hideonbocchi_track1_report.md`로 저장해 사용한다. 실제 AI 요금제와 학습·보관 설정은 제출 전에 확인해 기입한다. 환자 자료, CSV, API 응답·키는 GitHub에 올리지 않는다. 이 저장소 게시와 포털 제출은 별개다.
+포털에는 비공개 CSV `hideonbocchi_exomiser_lirical_avi.csv`와 [영문 보고서](METHODS.md)를 `hideonbocchi_track1_report.md`로 저장해 사용한다. 분석에는 Claude for Scientist를 사용했으며(참가자 확인), 저장소 정리와 보고서 편집에는 OpenAI Codex를 사용했다. 계정의 학습·보관 설정은 미확인이다. 환자 자료, CSV, API 응답·키는 GitHub에 올리지 않는다. 이 저장소 게시와 포털 제출은 별개다.

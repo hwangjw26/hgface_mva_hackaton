@@ -124,7 +124,7 @@ Original release records are retained in `provenance/v1.1.0/`.
 
 Use `hideonbocchi_exomiser_lirical_avi.csv` and `hideonbocchi_track1_report.md` for
 the portal. The CSV stays private; [METHODS.md](METHODS.md) is the report source.
-Complete the report's unverified AI account disclosures before submission.
+The report records participant-reported use of Claude for Scientist for analysis and OpenAI Codex for repository organization and report editing. Account training and retention settings remain unverified.
 Do not commit case inputs, exact candidate tables, raw reads, outputs, API caches
 or keys. Repository publication does not submit predictions to the challenge.
 

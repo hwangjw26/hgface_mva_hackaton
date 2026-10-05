@@ -31,6 +31,6 @@ Release v1.1.1 reorganizes v1.1.0 code without changing decisions. It reconstruc
 
 Recorded wall times: Exomiser 5m47s/10m28s; eight LIRICAL runs 34m32s; targeted phase extension 86m38s. These exclude other work; total effort and cost were not recorded.
 
-**AI assistance:** OpenAI Codex; user-reported plan/tier “GPT x30” (unverified); account training and retention settings unverified.
+**AI assistance:** Claude for Scientist was used for analysis (participant-reported); OpenAI Codex supported repository organization and report editing. Account training and retention settings remain unverified.
 
 We acknowledge the family and challenge organizers.
