@@ -21,7 +21,7 @@
       "original_path": "METHODS.ko.md",
       "current_path": "METHODS.ko.md",
       "original_sha256": "60d0ab99bb6ca7eda2aff42137e94aebdb9ecae339efb3a19fffc545fb5049fb",
-      "current_sha256": "e546727c02e6d7446108419a584e2a3dd3ccc811977862baed899f3eb5bb3de3",
+      "current_sha256": "7730a64c6b4d13c9edad48fcb575e576405030601860c7fc4ae8dce0a9fc64ea",
       "byte_identical": false
     },
     {
@@ -77,14 +77,14 @@
       "original_path": "DELIVERY.ko.md",
       "current_path": "docs/DELIVERY.ko.md",
       "original_sha256": "bccdd0764005ecfa0e7d54e68c50bd64ba04e9e02b70047e7cfb16072986010b",
-      "current_sha256": "320ddcb6864a3f8f282d30c9eda06eaf75124acbd397345adcb9cfbc09c41e68",
+      "current_sha256": "47360a5dd797ad4238b63d37655c8fc9d0e919160a9cf4c98e81d905acea043d",
       "byte_identical": false
     },
     {
       "original_path": "TEMPLATE_COVERAGE.md",
       "current_path": "docs/TEMPLATE_COVERAGE.md",
       "original_sha256": "a81535ea02a594a6aa19a1ebab2621a3de251750b19a00e36a721c6adcd4ba69",
-      "current_sha256": "3bbdbba1b94b2f82d00d910ed3c0a5eea7adf82c19038fd9c7334b40ce3be394",
+      "current_sha256": "bc27f65826c6824702460973b479a006ab112a408ef2b991226b4071239bb5e7",
       "byte_identical": false
     },
     {
@@ -98,7 +98,7 @@
       "original_path": "README.md",
       "current_path": "README.md",
       "original_sha256": "78b5c32dbcb5fa5c31dac337d5abaa7c9bcfcdd7847231fa82888c643a4da93a",
-      "current_sha256": "db8e6f940f72a693ee34580719787c7115a23fd9be77b5ddc0d0534b7eed502e",
+      "current_sha256": "5b25b47bc8e04fd8105778b51449149ddb7f05aaa9e2f9a72fc0f6a5cb264548",
       "byte_identical": false
     },
     {
@@ -112,7 +112,7 @@
       "original_path": "METHODS.md",
       "current_path": "METHODS.md",
       "original_sha256": "ad99218f3ef9a8d62cf6dd5b7680d8b09348f1d5ae61a79605c6dffd735c0e83",
-      "current_sha256": "da948888db135809352bfe704583daeeab2ac51a904b6834f0332a122c40e05b",
+      "current_sha256": "193df5cdef519ef2e50687f994aaff19daa9a0c5c6ccea826bc9b1a631d8ca2c",
       "byte_identical": false
     },
     {

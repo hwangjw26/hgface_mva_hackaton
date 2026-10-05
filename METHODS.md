@@ -27,10 +27,12 @@ EPCR 1.00, 0.75, 0.50 and 0.25 encode ordinal rank, not calibrated causal probab
 
 ## Reproducibility and resources
 
-Release v1.1.1 reorganizes v1.1.0 code without changing decisions. It reconstructs the baseline from native outputs and declared annotation/review checkpoints, then optionally adds independently verified AVI annotations from hash-pinned responses. Cached replay requires no API key or network request. The service exposes no dataset snapshot version. Large upstream runs were not repeated for packaging.
+Release v1.1.1 preserves decisions. It reconstructs the baseline from native outputs and declared annotation/review checkpoints, then optionally adds independently verified AVI annotations from hash-pinned responses. Cached replay requires no API key or network request. The service exposes no dataset snapshot version. Large upstream runs were not repeated for packaging.
 
 Recorded wall times: Exomiser 5m47s/10m28s; eight LIRICAL runs 34m32s; targeted phase extension 86m38s. These exclude other work; total effort and cost were not recorded.
 
-**AI assistance:** Claude for Scientist was used for analysis (participant-reported); OpenAI Codex supported repository organization and report editing. Account training and retention settings remain unverified.
+**AI assistance:** Anthropic Claude (Team plan for scientists) supported analysis; OpenAI Codex (ChatGPT Pro 20x) assisted with code and reporting. Account training and retention settings remain unverified.
+
+Submission notes add reviewed rationales without altering other fields.
 
 We acknowledge the family and challenge organizers.

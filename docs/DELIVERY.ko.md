@@ -7,6 +7,8 @@
 - 검토용 국문 보고서: [METHODS.ko.md](../METHODS.ko.md).
 - GitHub에는 이 코드 저장소의 파일만 사용한다. 환자 CSV, 입력, 후보별 결과, 로그, API 응답과 키는 포함하지 않는다.
 
-보고서에는 분석 시 Claude for Scientist 사용(참가자 확인), 저장소 정리·보고서 편집 시 OpenAI Codex 사용을 명시했다. 계정의 학습·보관 설정은 미확인이다. 코드 게시와 포털 제출은 별개다. 이 코드 정리는 포털 제출을 실행하지 않는다.
+보고서의 AI 사용 내역: Anthropic Claude(Team plan for scientists)는 분석을 지원했고, OpenAI Codex(ChatGPT Pro 20x)는 코드 작성과 보고서 작성을 지원했다. 계정의 학습·보관 설정은 미확인이다. 코드 게시와 포털 제출은 별개다. 이 코드 정리는 포털 제출을 실행하지 않는다.
 
 v1.1.1은 실행 경로와 문서를 정리한 버전이다. v1.1.0 비공개 입력 묶음 및 AVI 저장 응답을 그대로 사용한다. 실행은 [README](../README.md), 전체 분석 단계는 [UPSTREAM](UPSTREAM.md)을 따른다.
+
+제출용 CSV는 후보별 근거와 한계를 notes에 추가한 검토본이다. 다른 열과 행 순서는 원본 재현 출력과 같다. 재현 코드와 바이트 비교 검증기는 기존 `Phase unresolved.` CSV를 계속 생성·검증한다. notes 보완은 선정 규칙이 아닌 제출 문구 편집 단계이며, 포털에는 검토본 CSV를 사용한다.

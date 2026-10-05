@@ -124,10 +124,12 @@ Original release records are retained in `provenance/v1.1.0/`.
 
 Use `hideonbocchi_exomiser_lirical_avi.csv` and `hideonbocchi_track1_report.md` for
 the portal. The CSV stays private; [METHODS.md](METHODS.md) is the report source.
-The report records participant-reported use of Claude for Scientist for analysis and OpenAI Codex for repository organization and report editing. Account training and retention settings remain unverified.
+Anthropic Claude (Team plan for scientists) supported analysis; OpenAI Codex (ChatGPT Pro 20x) assisted with code and reporting. Account training and retention settings remain unverified.
 Do not commit case inputs, exact candidate tables, raw reads, outputs, API caches
 or keys. Repository publication does not submit predictions to the challenge.
 
 See [delivery instructions](docs/DELIVERY.ko.md), [license](LICENSE.txt) and
 [third-party notices](THIRD_PARTY.md). This repository retains the original
 licenses; it does not redistribute Exomiser/LIRICAL binaries or reference databases.
+
+The reviewed delivery CSV adds candidate-specific rationale and limitations only in `notes`. All other fields and row order match the frozen replay output. Replay and its byte-comparison verifier still produce/check the original CSV with `Phase unresolved.`; the reviewed notes are an editorial delivery step, not a selection rule. Keep the reviewed delivery CSV for portal upload.

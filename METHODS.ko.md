@@ -31,6 +31,8 @@ v1.1.1은 기존 v1.1.0 코드의 폴더 구조를 정리하고 판단을 유지
 
 관측 wall time은 Exomiser 5분47초/10분28초, LIRICAL 8회 34분32초, 표적 phase 확장 86분38초다. 다른 작업은 포함하지 않으며 총 노력과 비용은 기록하지 않았다.
 
-**AI 지원:** 분석에는 Claude for Scientist를 사용했다(참가자 확인). 저장소 정리와 보고서 편집에는 OpenAI Codex를 사용했다. 계정의 학습·보관 설정은 미확인이다.
+**AI 지원:** Anthropic Claude(Team plan for scientists)는 분석을 지원했고, OpenAI Codex(ChatGPT Pro 20x)는 코드 작성과 보고서 작성을 지원했다. 계정의 학습·보관 설정은 미확인이다.
+
+제출 CSV의 notes에는 검토한 후보별 근거를 추가했으며 다른 열은 변경하지 않았다.
 
 자료를 제공한 가족과 대회 주최 측에 감사한다.
