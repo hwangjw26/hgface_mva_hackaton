@@ -2,7 +2,7 @@
 
 제출 이름은 **hideonbocchi**, GitHub 저장소는 https://github.com/hwangjw26/hgface_mva_hackaton 이다.
 
-- 포털 예측 파일: `hideonbocchi_exomiser_lirical_avi.csv`. 비공개 재현 결과의 `predictions.csv`와 내용이 같다.
+- 포털 예측 파일: `hideonbocchi_pairprior_v1.csv`. 비공개 재현 결과의 `predictions.csv`에 후보별 notes만 보완한 검토본이다.
 - 포털 영문 보고서: `hideonbocchi_track1_report.md`. 저장소의 [METHODS.md](../METHODS.md)를 이 이름으로 저장한다.
 - 검토용 국문 보고서: [METHODS.ko.md](../METHODS.ko.md).
 - GitHub에는 이 코드 저장소의 파일만 사용한다. 환자 CSV, 입력, 후보별 결과, 로그, API 응답과 키는 포함하지 않는다.
