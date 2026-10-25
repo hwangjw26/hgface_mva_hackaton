@@ -1,5 +1,9 @@
 # Changes
 
+## Documentation update — 2026-10-25
+
+- Remove Korean-language guides (`README.ko.md`, `METHODS.ko.md`, `docs/DELIVERY.ko.md`); their content is covered by `README.md` and `METHODS.md`. Code, outputs and validation are unchanged.
+
 ## 1.1.1 — 2026-10-05
 
 - Delivery update: add reviewed candidate rationale and limitations to the private submission CSV notes only. Frozen replay output and its original byte-comparison validation remain unchanged.

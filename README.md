@@ -11,7 +11,7 @@ reconstruct an Exomiser-led variant-pair analysis, add LIRICAL disease context,
 review recorded evidence and optionally annotate variants with AVI.
 It produces research hypotheses, not clinical diagnoses.
 
-[한국어 안내](README.ko.md) · [English methods report](METHODS.md) · [국문 보고서](METHODS.ko.md)
+[Methods report](METHODS.md)
 
 ## Repository layout
 
@@ -128,7 +128,7 @@ Anthropic Claude (Team plan for scientists) supported analysis; OpenAI Codex (Ch
 Do not commit case inputs, exact candidate tables, raw reads, outputs, API caches
 or keys. Repository publication does not submit predictions to the challenge.
 
-See [delivery instructions](docs/DELIVERY.ko.md), [license](LICENSE.txt) and
+See [license](LICENSE.txt) and
 [third-party notices](THIRD_PARTY.md). This repository retains the original
 licenses; it does not redistribute Exomiser/LIRICAL binaries or reference databases.
 
